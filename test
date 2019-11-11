@@ -1,0 +1,40 @@
+1)
+
+  a) Constant time
+
+
+  b) Logarithmic time
+
+2) Constant time notation, it finds the one item in the array that matches the input which is constant time's property of accessing an array item.
+
+3) Constant time because it compares two arrays to determine the matching numbers in the array and constant time accesses an array item.
+
+4) Constant time because it multiplies every item in the array by two which is the same as the example of adding each item in the array together.
+
+5) Logarithmic time because you are comparing two arrays to identify the same item in both arrays.
+
+6) Polynomial time because there are two layers of loops so it would be O(n^2). 
+
+7) This algorithm compares the number given and loops through the number to determine the Fibonacci Sequence. This is constant time complexity because it is simple addition of two items in an index or returning an item in the array.
+
+8) Logarithmic time becaues it finds the midpoint of each array to determine where the two items in each array are equivalent. 
+
+9) Constant time because it will randomly find an item in the array no matter the size of the input.
+
+10) Determines if a number greater than 2 is odd or even. This is linear time as given a larger number of inputs it would take proportionally longer to run the algorithm.
+
+11) function hanoiTower(height, srcP, desP, bufferP) {
+  if (height >= 1) {
+
+    hanoiTower(height - 1, srcP, bufferP, desP);
+
+    console.log('Move disk from Tower ', srcP, ' to Tower ', desP);
+
+    hanoiTower(height - 1, bufferP, desP, srcP);
+  }
+  
+  return;
+}
+
+hanoiTower(3, "A", "C", "B");
+
